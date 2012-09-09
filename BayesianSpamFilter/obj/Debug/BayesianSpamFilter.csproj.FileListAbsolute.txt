@@ -1,0 +1,54 @@
+C:\BayesianSpamFilter\BayesianSpamFilter\bin\Debug\BayesianSpamFilter.exe
+C:\BayesianSpamFilter\BayesianSpamFilter\bin\Debug\BayesianSpamFilter.pdb
+C:\BayesianSpamFilter\BayesianSpamFilter\obj\Debug\ResolveAssemblyReference.cache
+C:\BayesianSpamFilter\BayesianSpamFilter\obj\Debug\MainWindow.baml
+C:\BayesianSpamFilter\BayesianSpamFilter\obj\Debug\MainWindow.g.cs
+C:\BayesianSpamFilter\BayesianSpamFilter\obj\Debug\App.g.cs
+C:\BayesianSpamFilter\BayesianSpamFilter\obj\Debug\BayesianSpamFilter_MarkupCompile.cache
+C:\BayesianSpamFilter\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.g.resources
+C:\BayesianSpamFilter\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.exe
+C:\BayesianSpamFilter\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.pdb
+C:\BayesianSpamFilter\BayesianSpamFilter\obj\Debug\Simple Styles.baml
+C:\BayesianSpamFilter\BayesianSpamFilter\obj\Debug\App.baml
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.exe
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.pdb
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\bin\Debug\BayesianSpamFilter.exe
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\bin\Debug\BayesianSpamFilter.pdb
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\MainWindow.baml
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\Simple Styles.baml
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\App.baml
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\MainWindow.g.cs
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\App.g.cs
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\BayesianSpamFilter_MarkupCompile.cache
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.g.resources
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Angst\Desktop\diplom_bayes_wpf_final_with no comments\BayesianSpamFilter\obj\Debug\BayesianSpamFilter_MarkupCompile.lref
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.exe
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.pdb
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\bin\Debug\BayesianSpamFilter.exe
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\bin\Debug\BayesianSpamFilter.pdb
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\Simple Styles.baml
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\App.baml
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\MainWindow.g.cs
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\App.g.cs
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\BayesianSpamFilter_MarkupCompile.cache
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\BayesianSpamFilter_MarkupCompile.lref
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\MainWindow.baml
+C:\Users\Angst\Desktop\diplom\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.g.resources
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.exe
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.pdb
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\bin\Debug\BayesianSpamFilter.exe
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\bin\Debug\BayesianSpamFilter.pdb
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\Simple Styles.baml
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\App.baml
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\MainWindow.g.cs
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\App.g.cs
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\BayesianSpamFilter_MarkupCompile.cache
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\BayesianSpamFilter_MarkupCompile.lref
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\MainWindow.baml
+C:\Users\Angst\Desktop\cd\Программа\BayesianSpamFilter\obj\Debug\BayesianSpamFilter.g.resources

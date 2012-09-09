@@ -1,0 +1,81 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:util="clr-namespace:Wpf.Util"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="BayesianSpamFilter.MainWindow"
+	x:Name="Window"
+	Title="Bayesian Spam Filter"
+	Width="575" Height="429" WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown" SizeToContent="Manual" Background="White">
+    <Grid x:Name="LayoutRoot" ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="23"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TabControl Height="Auto" HorizontalAlignment="Stretch" Margin="0,10,0,0" Name="tabControl1" VerticalAlignment="Stretch" Width="Auto" HorizontalContentAlignment="Center" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="1" Grid.RowSpan="1">
+            <TabItem Header="Data" Name="tabItem1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="Silver" BorderThickness="1" Height="Auto" HorizontalAlignment="Stretch" Margin="0" Name="border1" VerticalAlignment="Stretch" Width="Auto" />
+                    <ListView Height="Auto" HorizontalAlignment="Stretch" Margin="0" Name="listView1" VerticalAlignment="Stretch" Width="Auto" Grid.Row="1" ItemsSource="{Binding}" util:GridViewSort.AutoSort="True">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Слово" DisplayMemberBinding="{Binding Path=wordName}" util:GridViewSort.PropertyName="wordName"/>
+                                <GridViewColumn Header="Вероятность" DisplayMemberBinding="{Binding Path=wordProb}" util:GridViewSort.PropertyName="wordProb"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Mail" Name="tabItem2">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="Silver" BorderThickness="1" Height="Auto" HorizontalAlignment="Stretch" Margin="0" Name="border2" VerticalAlignment="Stretch" Width="Auto">
+                        <Label Height="28" Name="label1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" />
+                    </Border>
+                    <RichTextBox Background="#FF2B2B2B" Foreground="#FFDEDEDE" Name="txtOut" VerticalScrollBarVisibility="Auto" Paragraph.LineHeight="0.5" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalContentAlignment="Top" Grid.Row="1">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="" />
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Menu Height="23" HorizontalAlignment="Stretch" Name="menu1" VerticalAlignment="Top" Width="Auto" BorderThickness="0" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="1">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Открыть сообщение" Name="loadmsgItem" Click="loadmsgItem_Click" />
+                <MenuItem Header="Загрузить базу" Name="fromItem" Click="fromItem_Click" />
+                <MenuItem Header="Сохранить базу" Name="toItem" Click="toItem_Click" />
+                <MenuItem Header="Обработать данные для новой базы" Name="loadItem" Click="loadItem_Click" />
+                <MenuItem Header="Выйти" Name="exitItem" Click="exitItem_Click" />
+            </MenuItem>
+            <MenuItem Header="Правка">
+                <MenuItem Header="Очистить" Name="clrItem" Click="clrItem_Click" />
+                <MenuItem Header="Проверить на спам" Name="testItem" Click="testItem_Click" />
+                <MenuItem Header="Это спам" Name="spamItem" Click="spamItem_Click" />
+            </MenuItem>
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC1C1C1" Offset="0" />
+                    <GradientStop Color="White" Offset="1" />
+                </LinearGradientBrush>
+            </Menu.Background>
+        </Menu>
+    </Grid>
+</Window>
